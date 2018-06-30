@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.logintest.ListActivity"
+    android:background="@color/colorPrimaryDark">
+   <EditText
+       android:layout_marginTop="10dp"
+       android:layout_width="400dp"
+       android:layout_height="50dp"
+       android:layout_gravity="center"
+       android:hint="输入捡到物品的时间"
+       android:gravity="center"
+       android:background="@drawable/login"/>
+    <EditText
+        android:layout_width="400dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:hint="具体描述"
+        android:gravity="center"
+        android:background="@drawable/login"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_take_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开相机"
+        android:background="@drawable/shape"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/choose_from_album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开相册"
+        android:background="@drawable/shape"/>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/iv_picture"
+        android:layout_width="330dp"
+        android:layout_height="270dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape2"/>
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发布"
+        android:background="@drawable/shape"/>
+</LinearLayout>

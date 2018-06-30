@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+
+    <EditText
+        android:id="@+id/ak"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="8dp"
+        android:background="@drawable/login"
+        android:hint="输入账号(账号为您的学号）"
+        android:inputType="number"
+        />
+    <EditText
+
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="8dp"
+        android:background="@drawable/login"
+        android:hint="输入密码"
+        android:inputType="textPassword"/>
+    <EditText
+
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="8dp"
+        android:background="@drawable/login"
+        android:hint="再次输入密码"
+        android:inputType="textPassword"/>
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/sure"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:background="@drawable/shape"
+        android:text="确定"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="	#FFFFFF"/>
+
+
+
+
+
+
+
+</LinearLayout>

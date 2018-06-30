@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <LinearLayout
+        android:id="@+id/team1"
+        android:layout_width="match_parent"
+        android:layout_height="540dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="horizontal"
+
+
+            >
+
+            <Button
+                android:id="@+id/find1"
+                android:text="发布启事"
+                android:textSize="23dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="60dp"
+                android:layout_width="284dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/button1"
+                android:layout_marginBottom="20dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"
+            android:orientation="vertical">
+            <EditText
+                android:hint="输入密码一键挂失校园卡"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textPassword"
+                android:background="@drawable/login"
+                android:gravity="center"
+                />
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/sure1"
+                android:text="确认"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:inputType="number"
+                android:background="@drawable/shape"/>
+
+            <EditText
+                android:id="@+id/et"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/login"
+                android:gravity="center"
+                android:hint="输入学生卡号一键查询" />
+            <Button
+                android:id="@+id/sure2"
+                android:layout_marginTop="10dp"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:text="确认"
+                android:background="@drawable/shape"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="发布"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="浏览"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

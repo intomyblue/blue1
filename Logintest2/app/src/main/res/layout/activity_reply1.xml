@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.logintest.ListActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:background="@drawable/login"
+        android:text="相关描述"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/iv_picture"
+        android:layout_width="330dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/cap"
+        android:background="@drawable/login"/>
+</LinearLayout>
